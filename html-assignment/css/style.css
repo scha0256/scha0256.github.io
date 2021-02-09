@@ -1,0 +1,47 @@
+/* color font and size of body */
+body{
+    color: rgb(31, 34, 66);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+/* main heading and footer- background color */
+h1,
+footer{
+    background-color: rgb(179, 199, 235);
+}
+
+/* color and font of header */
+.site-title{
+    color: rgb(40, 44, 77);
+    font-family: fantasy;
+}
+
+/* adding box shadow to image */
+#my-image{
+    box-shadow: 0px 2px 1px 2px black
+}
+
+/* changing to square bullets */
+article ul{
+    list-style: square;
+}
+
+/* nth selector to add background to odd list items */
+article ul li:nth-child(odd){
+    background-color: rgb(252, 220, 239);
+}
+
+/* LoVe HAte */
+nav a,
+nav a:link,
+nav a:visited{
+text-decoration: none;
+background-color: rgb(179, 199, 235);
+border: ridge;
+}
+
+nav a:hover,
+nav a:focus{
+    background-color: rgb(238, 212, 237);
+}
