@@ -7,6 +7,8 @@ body{
 h1{
     color: rgb(114, 60, 60);
 }
+/* descendent selector - multiple levels */
+/* Specificity */
 p{
     background-color: lightblue;
 }
@@ -21,6 +23,7 @@ h4 {
 }
 
 /* descendent selector */
+/* spesificity: 0002 */
 nav ul{
     list-style: none;
 }
@@ -32,6 +35,7 @@ nav ul a{
 }
 
 /* class name selector */
+/* spesificity 0010 */
 .orange-link {
     background-color: darkslategray;
     color: white;
@@ -95,3 +99,29 @@ section ol li:last-child{
 }
 
 /* nth-child using the formula */
+dl ul li:mth-child(2n+1) {
+    background-color: white;
+}
+
+/* css spesificity */
+
+/* spesificity 0002 */
+body footer {
+    background-color:rgb(114, 60, 60)
+}
+
+/* spesificity: 0010*/
+footer{
+    background-color: rgb(66, 50, 14);
+    padding: 20px
+}
+
+/* spesificity: 0010 */
+.site-footer {
+    background-color: rosybrown;
+}
+
+/* spesificity: 0011 */
+footer.site-footer {
+    background-color:rgb(114, 60, 60);
+}
