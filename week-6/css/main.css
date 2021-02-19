@@ -1,8 +1,13 @@
 /* adding color */
 /* adding font */
+html{
+    font-size: 16px;
+}
+
 body{
-    color: darkslategray;
+    color: rgb(202, 154, 127);
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../images/white_brick_wall.jpg");
 }
 h1{
     color: rgb(114, 60, 60);
@@ -30,24 +35,33 @@ nav ul{
 
 /* descendent selector - multiple levels */
 nav ul a{
-    color: darkslategray;
+    color: rgb(248, 255, 255);
     text-decoration: none;
+    font-size: 1.5rem;
+    /* 1.5 x 16px = 24px */
 }
 
 /* class name selector */
 /* spesificity 0010 */
 .orange-link {
     background-color: darkslategray;
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 /* id selector */
 #treatofweek {
-    background-color: thistle;
+    background: darkslategray url("../images/bread.jpg") no-repeat center center;
+    background-size: cover;
+    color: #ccc;
+    font-size: 1.5rem;
+    padding: 1em;
+    width: 50%;
 }
 
+
+
 .large-text {
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 /* child selector */
