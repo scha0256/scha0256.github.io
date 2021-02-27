@@ -55,12 +55,10 @@ table {
 /* fonts*/
 html{
     font-size: 16px;
-    background: darkgoldenrod no-repeat center center;
-    background-size: cover;
-    width: 500px;
-    height: 10000px;
-    padding: 6em;
-    margin: 40px;
+    background: darkgoldenrod;
+
+    padding: 5em;
+    
 }
 
 #wildflowers{
@@ -75,13 +73,20 @@ html{
 
 h1{
     color: white;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family: Arial, Helvetica, sans-serif;
+}
+/* citing */
+cite{
+    color: black;
+    font-size: 10px;
+    font-style: italic;
 }
 body{
     color: rgb(0, 0, 0);
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: rgb(231, 188, 80);
+    background: rgb(231, 188, 80) no-repeat center center;
+    background-size: cover;
 }
 
 /* Navigation */
@@ -118,6 +123,7 @@ h2{
     margin: 0 auto;
 }
 img{
-    width: 200px;
+    width:200px;
     float: left;
+    padding: 2rem; 
 }
