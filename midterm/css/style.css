@@ -77,12 +77,7 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
 }
 /* citing */
-cite{
-    color: black;
-    font-size: 10px;
-    font-style: italic;
-    text-align: left;
-}
+
 body{
     color: rgb(0, 0, 0);
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -98,16 +93,26 @@ nav ul a{
     text-decoration: none;
     font-size: 1.5rem;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 4rem;
-
 }
 nav ul a:hover,
 nav ul a:focus{
     text-decoration: underline;
+    
 }
 nav li{
-    display: inline;
+    display: inline-block;
+    padding: 4px;
+    
 }
+
+/* navigation spacers */
+nav ul li:not(:last-child) {
+    border-right: 1px solid white;
+}
+li a {
+    padding: 4px 20px;
+}
+
 /* article  */
 article > p{
     font-size: 12px;
@@ -117,7 +122,13 @@ article > p{
     text-align: left;
 }
 main section ul{
-    text-decoration: dotted;
+    list-style-type: disc;
+    text-align: left;
+    line-height: 1.5rem;
+    font-size: 12px;
+    padding: 2rem;
+    
+    
 }
 
 h2{
@@ -127,15 +138,12 @@ h2{
     padding: 1.5rem;
     text-align: left;
 }
+
 .content-container{
-    width: 500px;
-    margin: 0 auto;
-    overflow: scroll;
+background: rgb(231, 188, 80) no-repeat center center;
 }
-.content-container img{
-    width:500px;
-    margin:0 auto;
-}
+
+
 img{
     width:200px;
     float: left;
@@ -147,6 +155,14 @@ footer{
     font-size: 9px;
     padding: 2rem;
     line-height: 1.5rem;
-    background: rgb(231, 188, 80) no-repeat center center;
+    
+    text-align: left;
+    
+}
+
+cite{
+    color: black;
+    font-size: 10px;
+    font-style: italic;
     text-align: left;
 }
