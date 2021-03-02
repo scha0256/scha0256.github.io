@@ -44,13 +44,19 @@
     <!-- article text -->
     <article>
         <h2>Rudbeckia Hirta the "black-eyed susan</h2>
-        <!-- image black-eyed Susan -->
+    <!-- Images -->
     <img id="my-image" src="images/black-eyedsusan.jpg" alt="wildflowers">
+    
     <p>
-        Wildflowers are increasingly popular in gardens across the United States. They're relatively easy to grow and care for and create an incredible palette of colors, textures, and foliage throughout the summer months. Some wildflowers have medicinal uses, while others are merely pretty. While it's ideal to select wildflowers that are indigenous to your region, it's often acceptable to select non-native plants if they are unlikely to become invasive.
-        If ever a plant needed a common name, it's Rudbeckia hirta, better known as "black-eyed Susan." This plant is just too pretty and cheerful a plant to be called by its mouthful of a botanical name. A wildflower native to eastern North America, black-eyed Susans share the Rudbeckia genus name with gloriosa daisies.
+        Wildflowers are increasingly popular in gardens across the United States. They're relatively easy to grow and care for and create an incredible palette of colors, textures, and foliage throughout the summer months (Beaulieu). Some wildflowers have medicinal uses, while others are merely pretty. While it's ideal to select wildflowers that are indigenous to your region, it's often acceptable to select non-native plants if they are unlikely to become invasive (Beaulieu).
+        If ever a plant needed a common name, it's Rudbeckia hirta, better known as "black-eyed Susan." This plant is just too pretty and cheerful a plant to be called by its mouthful of a botanical name. A wildflower native to eastern North America, black-eyed Susans share the Rudbeckia genus name with gloriosa daisies (Beaulieu). 
+        There are more than two dozen wild species of Black-eyed Susans, native to different parts of North America, all with distinctive yellow petals radiating out from a central knob.
+        And while some species of Black-eyed Susans have additional names—such as daisies, sunflowers or coneflowers—they all belong to the Rudbeckia genus. This explains why we often collectively refer to all the members of the Black-eyed Susan family as ‘Rudbeckias’.
+        There are also a number of cultivated varieties of Rudbeckias—such as Indian Summer, Denver Daisy and Cherry Brandy— that plant breeders have developed specially to provide such desirable features as mammoth flowers, luscious colors, or more compact plants (All About Black Eyed Susan). Black-eyed Susans are charming, carefree North American natives that are perfectly at home both in our gardens and in our meadows. All have daisy-like flowers with sultry dark ‘eyes’ and brightly-colored petals which emanate pure joy (All About Black Eyed Susan).
+        Some varieties begin flowering in mid-summer, others a bit later—but all keep on going until the temperature drops well below freezing in the fall (All About Black Eyed Susan).
     </p>
 </article>
+<!-- Facts -->
 <section>
     <h2>About the Rudbeckia Hirta</h2>
     <ul>
@@ -70,23 +76,26 @@
 </section>
 
 <!-- Contact Info -->
+<h2>Contact to learn more</h2>
 <section class="site-contact">
-    <h2>Contact to learn more</h2>
     <form action="thanks.html" method="get">
+
         <div>
             <label for="fullname">Your Name</label>
             <input type="text" id="fullname" name="fullname" required>
          </div>
+
          <div>
              <label for="youremail">Your Email</label>
              <input type="email" id="youremail" name="youremail" required>
          </div>
-         <div>
+
+         <div id="go">
              <label for="message">Your Message</label>
-             <input name="message" id="message"/>
+             <input name="text" id="message"/>
          </div>
          
-         <div>
+         <p>
              <h3>Would you like to see the wildflowers?</h3>
              <label for="yes">Yes</label>
              <input type="radio" name="past" id="yes">
@@ -94,7 +103,7 @@
              <input type="radio" name="past" id="no">
              <label for="maybe">Maybe</label>
              <input type="radio" name="past" id="maybe">
-         </div>
+         </p>
 
          <div>
             <button type="send">SEND</button> 
@@ -103,8 +112,10 @@
     </form>
 
 </section>
-<!-- END of Main -->
 </main>
+<!-- END of Main -->
+
+<!-- Footer and citations -->
 <footer class="site-footer">
     <p>
         <cite>Beaulieu, D. (n.d.). 12 types of Wildflowers for Summer Gardens. Retrieved February 25, 2021, from https://www.thespruce.com/types-of-wildflowers-4061772</cite>
@@ -112,7 +123,10 @@
     <p>
         <cite>Stock photo by Annie Spratt from Unsplash: https://unsplash.com/s/photos/black-eyed-susan</cite>
     </p>
-    <p>Copyright &copy; Natasha Schartner, Wildflowers, 2021</p>
+    <p>
+        <cite> All About Black Eyed Susan. (2021). Retrieved 2 March 2021, from https://www.americanmeadows.com/perennials/black-eyed-susan/all-about-black-eyed-susan</cite>
+    </p>
+    <p id="copy">&copy; Wildflowers.</p>
 </footer>
 
 </body>
