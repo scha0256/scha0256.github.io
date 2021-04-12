@@ -1,0 +1,186 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ----------------CSS RESET -----------------*/
+/* custom css */
+
+html{
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    max-width: 1200px;
+    
+
+}
+h1{
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 5rem;
+}
+h2{
+    font-size: 35px;
+    font-weight:550;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+h3{
+    font-size: 25px;
+    font-weight:550;
+    padding-top: 2rem;
+    padding-bottom: 2rem; 
+}
+p{
+    line-height: 1.5rem;
+}
+.content{
+    background-color: white;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+.team{
+    background-color: white;
+    padding-right: 1rem;
+    padding-left: 1rem; 
+}
+
+/* nav */
+.navigation{
+    padding: 1rem;
+    max-width: 1200px;
+    background-color: #222;
+}  
+nav ul li a{
+    background-color: #222;
+    color: rgb(255, 166, 0);
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+    text-align: center;
+}
+
+/* mobile app section */
+main img{
+    width: 100%;
+    padding-top: 1rem;
+}
+
+/* intro */
+.intro{ 
+    background: rgb(255, 255, 255) url("../images/main-banner.jpg") no-repeat center center;
+    background-size: cover;
+    color: white;
+    height: 50vh;
+}
+
+.bar{
+    opacity: 0.6;
+    background-color: #222;
+    filter: alpha(opacity=60);
+    position:absolute;
+    margin-top: 10rem;
+}
+    
+.text{
+    padding: 1rem;
+}
+
+/* About Us */
+.about{
+    padding: 1rem;
+    background-color: #ffe6ac;
+}
+
+.info{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background-color: #ffe6ac;
+}
+.market{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background-color: #ffe6ac;
+}
+.vision{
+    background: rgb(255, 255, 255) url("../images/vision.jpg") no-repeat center center;
+    background-size: cover;
+    color: white;
+    height: 25vh;
+}
+/* our team */
+
+hr { display: block; height: 1px;
+    border: 0; border-top: 1px solid #c78c06;
+    margin: 1em 0; padding: 0; }
+
+/* Contact Us */
+.site-contact{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.hours{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.location{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+/* buttons */
+.content button{
+    background-color: #222;
+    border: none;
+    color: white;
+    padding: 20px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    
+}
