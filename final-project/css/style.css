@@ -55,12 +55,6 @@ html{
     box-sizing: border-box;
 
 }
-.container{
-    padding-right: 1rem;
-    padding-left: 1rem;
-    max-width: 1200px;
-    margin: 0 auto;
-}
 
 h1{
     font-size: 60px;
@@ -99,6 +93,9 @@ p{
     background-color: #222;
     padding:1rem;
     width: 100%;
+    margin: 0;
+    padding-right:0rem;
+    padding-left:0rem;
 }
 nav ul li a{
     text-decoration: none;
@@ -200,9 +197,13 @@ header img{
 }
 /* our team */
 
-hr { display: block; height: 1px;
-    border: 0; border-top: 1px solid #c78c06;
-    margin: 1em 0; padding: 0; }
+hr { display: block; 
+    height: 1px;
+    border: 0; 
+    border-top: 1px solid #c78c06;
+    margin: 1em 0; 
+    padding: 0; 
+}
 .jo-info{
     background-color: #ffe6ac;
 }
@@ -236,7 +237,15 @@ div input{
 #go input{
     height: 7rem;
 }
-
+#name label{
+    line-height: 2rem;
+}
+#mail label{
+    line-height:2rem;
+}
+#go label{
+    line-height:2rem;
+}
 table{
     width: 100%;
 }
@@ -247,15 +256,7 @@ table, th, td {
 table th {
     background-color: #ffe6ac;
 }
-.site-contact{
-    background-color: white;
-}
-.hours{
-    background-color: white;
-}
-.location{
-    background-color: white;
-}
+
 
 
 
@@ -318,11 +319,26 @@ table th {
     html{
         font-size: 12px;
     }
+.container{
+    padding-right: 1rem;
+    padding-left: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 p{
     padding-left: 2rem;
     padding-right: 2rem;
 }
 h1{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+h3{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+h4{
     padding-left: 2rem;
     padding-right: 2rem;
 }
@@ -411,6 +427,71 @@ header img{
 .content .pri{
     grid-column: 5/span 2;
     grid-row: 2;
+}
+/* contact  */
+.contact-us{
+    padding-left: 6rem;
+    padding-right: 6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1rem;
+}
+.content-us .site-contact{
+    grid-column: 1/span 1;
+    grid-row: 1;
+}
+.contact-us .hours{
+    grid-column: 1/span 2;
+    grid-row: 2;
+}
+.contact-us .location{
+    grid-column: 2/span 1;
+    grid-row: 1;
+}
+#name input{
+    height:2rem;
+}
+#mail input{
+    height:2rem;
+}
+#go input{
+    height:10rem;
+}
+
+.site-contact{
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+.hours{
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+.location{
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+/* Our Team */
+.team{
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+.jo-img{
+    padding-top: 0rem;
+    width: 50%;
+    height:60%
+}
+.jo{
+    display: flex;
+}
+.bo-img{
+    padding-top: 0rem;
+    width: 50%;
+    height: 60%;
+}
+.bo{
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 }
