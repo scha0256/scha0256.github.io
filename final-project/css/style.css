@@ -63,13 +63,13 @@ h1{
 }
 h2{
     font-size: 35px;
-    font-weight:550;
+    font-weight:bold;
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
 h3{
     font-size: 25px;
-    font-weight:550;
+    font-weight:bold;
     padding-top: 2rem;
     padding-bottom: 2rem; 
 }
@@ -86,6 +86,12 @@ p{
     background-color: white;
     padding-right: 1rem;
     padding-left: 1rem; 
+}
+.our-team{
+    padding-left: 1rem;
+}
+.services{
+    padding-left: 1rem;
 }
 
 /* nav */
