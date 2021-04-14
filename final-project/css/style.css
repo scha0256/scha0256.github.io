@@ -50,13 +50,18 @@ table {
 /* custom css */
 
 html{
-    height: 100%;
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
-    max-width: 1200px;
-    
+    box-sizing: border-box;
 
 }
+.container{
+    padding-right: 1rem;
+    padding-left: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 h1{
     font-size: 60px;
     font-weight: bold;
@@ -75,7 +80,7 @@ h3{
     padding-bottom: 2rem; 
 }
 p{
-    line-height: 1.5rem;
+    line-height: 2rem;
 }
 .content{
     background-color: white;
@@ -90,24 +95,69 @@ p{
 }
 
 /* nav */
-.navigation{
-    padding: 1rem;
-    max-width: 1200px;
+.main-nav{
     background-color: #222;
-}  
+    padding:1rem;
+    width: 100%;
+}
 nav ul li a{
-    background-color: #222;
-    color: rgb(255, 166, 0);
     text-decoration: none;
     padding: 1rem;
     display: block;
     text-align: center;
+    color: #c78c06;
+    width: 100%;
+}
+.home{
+    padding-top: 7.5rem;
+    color: #222;
+    background-color: #c78c06;
+    width: 100%;
+    padding-right: 1rem;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  outline: none;
+}
+
+.searchTerm:focus{
+  color: #c78c06;
+}
+
+.searchButton {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #c78c06;
+  background: #222;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.wrap{
+  width: 100%;
 }
 
 /* mobile app section */
 main img{
     width: 100%;
     padding-top: 1rem;
+}
+
+header img{
+    position: absolute;
+    z-index: 3;
 }
 
 /* intro */
@@ -119,9 +169,6 @@ main img{
 }
 
 .bar{
-    opacity: 0.6;
-    background-color: #222;
-    filter: alpha(opacity=60);
     position:absolute;
     margin-top: 10rem;
 }
@@ -135,19 +182,18 @@ main img{
     padding: 1rem;
     background-color: #ffe6ac;
 }
+.about img{
+    width: 100%;
+}
 
 .info{
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-    background-color: #ffe6ac;
-}
-.market{
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-bottom: 1rem;
     background-color: #ffe6ac;
 }
 .vision{
-    background: rgb(255, 255, 255) url("../images/vision.jpg") no-repeat center center;
+    background: white url("../images/vision.jpg") no-repeat center center;
     background-size: cover;
     color: white;
     height: 25vh;
@@ -157,6 +203,12 @@ main img{
 hr { display: block; height: 1px;
     border: 0; border-top: 1px solid #c78c06;
     margin: 1em 0; padding: 0; }
+.jo-info{
+    background-color: #ffe6ac;
+}
+.bo-info{
+    background-color: #ffe6ac;
+}
 
 /* Contact Us */
 .site-contact{
@@ -171,6 +223,41 @@ hr { display: block; height: 1px;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
 }
+.map iframe{
+    width: 100%;
+}
+div input{
+    width: 100%;
+    border: solid;
+    border-color: #222;
+    border-width: 0.5px;
+    text-align: left;
+}
+#go input{
+    height: 7rem;
+}
+
+table{
+    width: 100%;
+}
+table, th, td {
+    border: 0.5px solid black;
+    padding: 1rem;
+  }
+table th {
+    background-color: #ffe6ac;
+}
+.site-contact{
+    background-color: white;
+}
+.hours{
+    background-color: white;
+}
+.location{
+    background-color: white;
+}
+
+
 
 /* buttons */
 .content button{
@@ -182,5 +269,148 @@ hr { display: block; height: 1px;
     text-decoration: none;
     display: inline-block;
     font-size: 14px;
-    
+}
+
+.intro button{
+    background-color: #c78c06;
+    border: none;
+    color: #222;
+    padding: 20px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px; 
+}
+
+.vision button{
+    background-color: #222;
+    border-color: #c78c06;
+    border-style: solid;
+    border-width: 1px;
+    color: white;
+    padding: 20px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px; 
+}
+
+.site-contact button{
+    background-color: #222;
+    color: #c78c06;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px; 
+}
+
+/* footer */
+.site-footer{
+    background-color: #222;
+    color: #c78c06;
+    padding: 1rem;
+}
+
+/* desktop */
+
+@media screen and (min-width: 750px) {
+    html{
+        font-size: 12px;
+    }
+p{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+h1{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+/* nav */
+.main-nav{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right:0;
+    padding-left:0;
+}
+.nav-list{
+    display: flex;
+    width: 100%;
+    padding-left: 22rem;
+    padding-right: 4rem;
+}
+.nav-list li{
+    flex: 1;
+    padding: 2rem;
+}
+.home{
+    padding-top: 1rem;
+}
+header img{
+    padding-left: 6rem;
+}
+
+.search {
+  width: 100%;
+  display: flex;
+  padding: 2rem;
+}
+
+.searchTerm {
+  width: 30%;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  outline: none;
+}
+/* about */
+.about img{
+    padding-right: 1rem;
+    width: 50%;
+    float: left;
+}
+.about{
+    height: 300px;
+    padding: 1rem;
+    background-color: #ffe6ac;
+}
+
+/* services */
+.services{
+    padding-left: 6rem;
+}
+
+.content{
+    padding-left: 6rem;
+    padding-right: 6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1rem;
+}
+.content .dig{
+    grid-column: 1/span 3;
+    grid-row: 1;
+}
+.content .mar{
+    grid-column: 4/span 3;
+    grid-row: 1;
+}
+.content .vid{
+    grid-column: 1/span 2;
+    grid-row: 2;
+}
+.content .dev{
+    grid-column: 3/span 2;
+    grid-row: 2;
+}
+.content .pri{
+    grid-column: 5/span 2;
+    grid-row: 2;
+}
+
 }
