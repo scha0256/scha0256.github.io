@@ -1,0 +1,48 @@
+/* fonts */
+body h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+body h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+body p{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: black;
+        font-size: 18px;
+}
+
+/* design for navigation bar */
+body #nav{
+    border: none;
+    background-color: rgb(26, 25, 48);
+}
+body nav a{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* design for home section */
+body #home{
+    background-color: rgb(156, 183, 209);
+}
+/* design for about section */
+body #about{
+    background-color: white;
+}
+
+/* design for contact section */
+body #contact{
+    background-color: rgb(156, 183, 209);
+}
+
+body .contact-form {
+    padding: 30px;
+    background-color: rgb(26, 25, 48);
+    width: 480px;
+    margin: 0px auto;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
