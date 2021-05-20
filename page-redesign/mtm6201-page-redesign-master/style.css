@@ -1,28 +1,35 @@
 /* fonts */
+/* 0|0|0|2 */
 body h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: black;
 }
+/* 0|0|0|2 */
 body h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: black;
 }
+/* 0|0|0|2 */
 body p{
         font-family: Georgia, 'Times New Roman', Times, serif;
         color: black;
         font-size: 18px;
 }
 /* sizing */
-body #main{
+/* 0|0|0|1 */
+body{
     max-width: 100%;
+    margin: auto;
 }
 
 /* design for navigation bar */
+/* 0|1|0|1 */
 body #nav{
     border: none;
     background-color: rgb(26, 25, 48);
     width: 100%;
 }
+/* 0|0|0|3 */
 body nav a{
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -30,6 +37,7 @@ body nav a{
 }
 
 /* design for home section */
+/* 0|1|0|1 */
 body #home{
     background-color: rgb(156, 183, 209);
     padding-left: 20px;
@@ -38,6 +46,7 @@ body #home{
     padding-top: 20px;
 }
 /* design for about section */
+/* 0|1|0|1 */
 body #about{
     background-color: white;
     padding-left: 20px;
@@ -47,13 +56,14 @@ body #about{
 }
 
 /* design for contact section */
+/* 0|1|0|1 */
 body #contact{
     background-color: rgb(156, 183, 209);
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 20px;
 }
-
+/* 0|0|1|1 */
 body .contact-form {
     padding-left: 20px;
     padding-right: 20px;
@@ -63,11 +73,11 @@ body .contact-form {
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
-
+/* 0|0|1|2 */
   body .contact-form label{
       font-size: 18px;
   }
-
+/* 0|0|1|1 */
   body .contact-form-input {
     padding-left: 0px;
     padding-right: 20px;
@@ -75,6 +85,7 @@ body .contact-form {
   }
 
   /* button design */
+  /* 0|1|0|1 */
   #contact button{
     background-color: rgb(156, 183, 209);
     border: none;
@@ -86,4 +97,50 @@ body .contact-form {
     font-size: 18px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+/* footer design */
+/* 0|0|0|1 */
+footer{
+    padding-left: 20px;
+}
+
+/* desktop */
+@media screen and (min-width: 750px) {
+    
+    /* 0|0|0|1 */
+    html{
+        font-size: 18px;
+    }
+
+    /* 0|0|0|1 */
+    body{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    /* 0|1|0|1 */
+    body #nav{
+        width: 100%;
+        max-width: 1140px;
+    }
+
+    /* contact form design */
+    /* 0|0|1|1 */
+    body .contact-form {
+        width: 650px;
+
+      }
+
+      /* 0|0|1|2 */
+      body .contact-form label{
+          font-size: 18px;
+      }
+
+      /* 0|0|1|1 */
+      body .contact-form-input {
+        padding-left: 0px;
+        padding-right: 20px;
+        width: 600px;
+      }
+}
+
   
