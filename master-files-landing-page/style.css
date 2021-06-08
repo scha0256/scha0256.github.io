@@ -3,7 +3,9 @@
 .container {
     padding-left:30px;
     padding-right:30px;
+    background-color: #F7F7FF;
 }
+
 /* images sizing */
 .scooter-image {
     display: block;
@@ -12,4 +14,31 @@
     height: auto;
   }
 
-/* fonts for header */
+
+/* fonts for headers */
+h1{
+  font-family:'Montserrat';
+  font-size: 80px;
+  font-weight: bold;
+}
+.header p{
+  font-size: 24px;
+}
+p{
+  font-size: 16px;
+}
+
+/* Apply Now Section */
+
+.apply{
+  border-radius: 25px;
+  background-color: white;
+  padding: 20px;
+  max-width: 100%;
+}
+h2{font-size: 40px;
+  font-weight: bold;}
+
+footer{
+  background-color: #FFFD8C;
+}
