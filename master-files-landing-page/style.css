@@ -1,0 +1,15 @@
+@import url('https://fonts.google.com/?query=mon&selection.family=Montserrat');
+
+.container {
+    padding-left:30px;
+    padding-right:30px;
+}
+/* images sizing */
+.scooter-image {
+    display: block;
+    /* make all images fit conatiner up to 100% width */
+    max-width: 100%;
+    height: auto;
+  }
+
+/* fonts for header */
