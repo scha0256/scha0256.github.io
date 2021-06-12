@@ -38,20 +38,28 @@
       <p>Enter your info below.</p>
       <form class="contact-form">
         <div class="contact-form-section">
-          <label class="contact-form-label">First name</label>
-          <input class="contact-form-input" type="text">
+          <label class="contact-form-label"></label>
+          <input class="contact-form-input" type="text"
+          placeholder="First name">
         </div>
         <div class="contact-form-section">
-            <label class="contact-form-label">Last name</label>
-            <input class="contact-form-input" type="text">
+            <label class="contact-form-label"></label>
+            <input class="contact-form-input" type="text"
+            placeholder="Last name">
           </div>
           <div class="contact-form-section">
-            <label class="contact-form-label">Phone number</label>
-            <input class="contact-form-input" type="phone-nunber">
+            <label class="contact-form-label"></label>
+            <input class="contact-form-input" type="phone-nunber"
+            placeholder="Phone number">
           </div>
         <div class="contact-form-section">
-          <label class="contact-form-label">Email Address</label>
-          <input class="contact-form-input" type="email">
+          <label class="contact-form-label"></label>
+          <input class="contact-form-input" type="email"
+          placeholder="Email Address">
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" id="terms">
+          <label for="terms">I agree to dash terms</label>
         </div>
         <button class="drive" type="submit">DRIVE WITH US</button>
         <p>Already applied?</p>
@@ -62,15 +70,20 @@
   <footer>
       <h3>See how much you can earn with Dash.</h3>
     <p>how many hours do you want to drive with us this week?</p>
-    <div class="contact-form-section">
-        <label class="contact-form-label">Hours</label>
-        <input class="contact-form-input" type="hours">
-      </div>
-    <div class="contact-form-section">
-      <label class="contact-form-label">City</label>
-      <input class="contact-form-input" type="city">
+
+    <section id="contact" class="contact">
+<!-- hours form -->
+    <div class="hours">
+        <label class="hours-label"></label>
+        <input class="hours-input" type="hours"
+        placeholder="Hours">
+<!-- city form -->
+      <label class="city-label"></label>
+      <input class="city-input" type="city"
+      placeholder="City">
     </div>
-    <button class="calculate" type="submit">CALCULATE</button>
+  </section>
+  <button class="calculate" type="submit">CALCULATE</button>
   </footer>
 </body>
 

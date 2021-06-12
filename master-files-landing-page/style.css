@@ -3,6 +3,7 @@
 .container {
     padding-left:30px;
     padding-right:30px;
+    padding-bottom: 30px;
     background-color: #F7F7FF;
 }
 
@@ -12,7 +13,30 @@
     /* make all images fit conatiner up to 100% width */
     max-width: 100%;
     height: auto;
+    padding-bottom: 20px;
   }
+
+/* buttons styles */
+.drive{
+  background-color: #57EEAB;
+  border-radius: 6px;
+  border: none;
+  font-size: 24px;
+  padding: 8px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.calculate{
+  background-color: #FF8480;
+  border-radius: 6px;
+  border: none;
+  font-size: 24px;
+  padding: 3px;
+  padding-right: 60px;
+  padding-left: 60px;
+  color: white;
+}
 
 
 /* fonts for headers */
@@ -33,12 +57,29 @@ p{
 .apply{
   border-radius: 25px;
   background-color: white;
+  box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
   padding: 20px;
   max-width: 100%;
 }
 h2{font-size: 40px;
-  font-weight: bold;}
-
-footer{
-  background-color: #FFFD8C;
+  font-weight: bold;
 }
+
+.contact-form-section input{
+  width: 100%;
+  font-size: 16px;
+  border-radius: 6px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border: none;
+  background-color: #F4F4F5;
+
+
+}
+
+/* footer */
+  footer{
+  background-color: #FFFD8C;
+  padding:20px;
+  }
