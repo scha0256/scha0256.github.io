@@ -15,15 +15,19 @@
   <main id="main" class="main">
 
     <section id="header" class="header">
-        <img class="logo-image" 
-        src="images/logo/logo-114.png" 
-        alt="logo">
+      <img class="logo-image" 
+      src="images/logo/logo-114.png" 
+      alt="logo">
+    </section>
+<!-- start of image grid section -->
+<div class="image-grid">
+  <div class="box">
       <h1 class="page-title">Want to be <br> 
         your own <br> 
         boss?</h1>
       <p>Start today and make up to $30/hr driving your own vehicle with Dash!</p>
-    </section>
-
+</div>
+      <div class="box">
       <img class="scooter-image" 
       src="images/bg-image/scooter.svg" 
       alt="scooter"
@@ -31,8 +35,9 @@
             images/bg-image/scooter-420.png 420w,
             images/bg-image/scooter-819.png 819w"
             >
+  </div>
     
-
+  <div class="box">
     <section id="apply" class="apply">
       <h2 class="section-title">Apply Now</h2>
       <p>Enter your info below.</p>
@@ -57,33 +62,67 @@
           <input class="contact-form-input" type="email"
           placeholder="Email Address">
         </div>
-        <div class="checkbox">
-          <input type="checkbox" id="terms">
-          <label for="terms">I agree to dash terms</label>
+        <div>
+          <input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox">
+          <label for="checkbox-1" class="checkbox-custom-label">I agree to dash terms</label>
         </div>
-        <button class="drive" type="submit">DRIVE WITH US</button>
-        <p>Already applied?</p>
+        <!-- button for drive -->
+        <div>
+          <button class="drive" type="submit">DRIVE WITH US</button>
+        </div>
+        <div class="applied">
+          <p>Already applied?</p> <h4>Check your application status here</h4>
+        </div>
       </form>
     </section>
+  </div>
+  </div>
+  <!-- end of image grid section -->
   </main>
   </div>
   <footer>
       <h3>See how much you can earn with Dash.</h3>
     <p>how many hours do you want to drive with us this week?</p>
 
-    <section id="contact" class="contact">
+    <div class="contact">
 <!-- hours form -->
-    <div class="hours">
+    <div class="block">
         <label class="hours-label"></label>
         <input class="hours-input" type="hours"
         placeholder="Hours">
+    </div>
+
 <!-- city form -->
+    <div class="block">
       <label class="city-label"></label>
       <input class="city-input" type="city"
       placeholder="City">
     </div>
-  </section>
-  <button class="calculate" type="submit">CALCULATE</button>
+
+<!-- button calculate -->
+    <div class="block">
+      <button class="calculate" type="submit">CALCULATE</button>
+    </div>
+    </div>
+    
+    <!-- icons for social media in footer -->
+    <div class="social-media">
+      <img class="facebook" 
+      src="images/icons/facebook.svg" 
+      alt="facebook">
+
+      <img class="instagram" 
+      src="images/icons/instagram.svg" 
+      alt="instagram">
+     
+      <img class="twitter" 
+      src="images/icons/twitter.svg" 
+      alt="twitter">
+    
+      <img class="linkedin" 
+      src="images/icons/linkedin.svg" 
+      alt="linkedin">
+  </div>
   </footer>
 </body>
 

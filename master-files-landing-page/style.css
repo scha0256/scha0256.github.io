@@ -74,12 +74,91 @@ h2{font-size: 40px;
   padding-left: 10px;
   border: none;
   background-color: #F4F4F5;
+}
 
-
+/* text at bottom of Apply Now */
+.applied p{
+  display: inline;
+}
+.applied h4{
+  display: inline-block;
+  font-style:normal;
+  color: #FF8480;
+}
+/* check box */
+.checkbox-custom .checkbox-custom-label:before{
+  background: #fff;
+  border: 2px solid #ddd;
 }
 
 /* footer */
   footer{
   background-color: #FFFD8C;
   padding:20px;
+  }
+/* footer shape colour and design */
+  .block input{
+    font-size: 16px;
+    border-radius: 6px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border: none;
+    background-color: #F7F7FF;
+    color: #707070;
+  }
+  /* hours and city form */
+  .contact .block{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* social media align to center */
+
+  .social-media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* social media padding */
+  .facebook{
+    padding-left:  20px;
+    padding-right: 20px;
+  }
+  .instagram{
+    padding-left:  20px;
+    padding-right: 20px;
+  }
+  .twitter{
+    padding-left:  20px;
+    padding-right: 20px;
+  }
+  .linkedin{
+    padding-left:  20px;
+    padding-right: 20px;
+  }
+
+
+  
+
+  /* -----------------------tablet view-------------------------- */
+  @media screen and (min-width: 768px){
+    .contact .block{
+      display: flex;
+      flex-direction:row;
+      display: inline;
+    }
+  }
+
+
+  /* -----------------------desktop view-------------------------- */
+  @media screen and (min-width: 1920px){
+    .contact div{ display: inline;
+    }
+    .image-grid .box{
+      display: flex;
+      flex-direction: row;
+    }
+  
   }
