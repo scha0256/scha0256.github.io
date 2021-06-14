@@ -9,18 +9,18 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="base.css">
   <!-- font style link -->
-  <link rel="stylesheet" href='https://fonts.google.com/?query=mon&selection.family=Montserrat')>
+  <link rel="stylesheet" href='https://fonts.google.com/?query=mon&selection.family=Montserrat'>
 </head>
 <!-- begin of body content -->
 <body>
     <div class="container">
   <main id="main" class="main">
 
-    <section id="header" class="header">
+
       <img class="logo-image" 
       src="images/logo/logo-114.png" 
       alt="logo">
-    </section>
+
 <!-- start of image grid section -->
 <!-- use flex to arrange horizontal in desktop media query -->
 <div class="image-grid">
@@ -40,8 +40,9 @@
       srcset="images/bg-image/scooter-289.png 289w,
             images/bg-image/scooter-420.png 420w,
             images/bg-image/scooter-819.png 819w"
-            >
+            sizes="(min-width: 1000px) 50vw, 100vw">
       </div>
+
 <!-- apply Now box -->
 <!-- use flex to arrange horizontal in desktop media query -->
     <div class="box">
@@ -60,8 +61,8 @@
           </div>
           <div class="contact-form-section">
             <label class="contact-form-label"></label>
-            <input class="contact-form-input" type="phone-nunber"
-            placeholder="Phone number">
+            <input class="contact-form-input" type="text"
+            placeholder="text">
           </div>
         <div class="contact-form-section">
           <label class="contact-form-label"></label>
@@ -71,7 +72,7 @@
         <div>
 <!-- check box section -->
           <input id="checkbox-custom" class="checkbox-custom" name="checkbox" type="checkbox">
-          <label for="checkbox" class="checkbox-custom-label">I agree to dash terms</label>
+          <label for="checkbox-custom" class="checkbox-custom-label">I agree to dash terms</label>
         </div>
 <!-- button for drive -->
         <div>
@@ -99,13 +100,13 @@
 <!-- hours form -->
     <div class="block">
         <label class="hours-label"></label>
-        <input class="hours-input" type="hours"
-        placeholder="Hours">
+        <input class="hours-input" type="text"
+        placeholder="text">
 
 <!-- city form -->
       <label class="city-label"></label>
-      <input class="city-input" type="city"
-      placeholder="City">
+      <input class="city-input" type="text"
+      placeholder="text">
     </div>
 
 <!-- button calculate -->
