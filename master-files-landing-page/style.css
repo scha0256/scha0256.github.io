@@ -1,4 +1,7 @@
-@import url('https://fonts.google.com/?query=mon&selection.family=Montserrat');
+
+body {
+  font-family: "montserrat", sans-serif;
+}
 
 .container {
     padding-left:30px;
@@ -41,12 +44,12 @@
 
 /* fonts for headers */
 h1{
-  font-family:'Montserrat';
   font-size: 80px;
   font-weight: bold;
 }
-.header p{
+.image-grid p{
   font-size: 24px;
+  font-weight: lighter;
 }
 p{
   font-size: 16px;
@@ -79,22 +82,27 @@ h2{font-size: 40px;
 /* text at bottom of Apply Now */
 .applied p{
   display: inline;
+  font-size: 17px;
+  font-weight: lighter;
 }
 .applied h4{
   display: inline-block;
   font-style:normal;
   color: #FF8480;
+  font-weight: lighter;
 }
 /* check box */
-.checkbox-custom .checkbox-custom-label:before{
-  background: #fff;
-  border: 2px solid #ddd;
+.checkbox-custom-label{
+  font-weight: lighter;
 }
 
 /* footer */
   footer{
   background-color: #FFFD8C;
   padding:20px;
+  }
+  footer p{
+    font-weight: lighter;
   }
 /* footer shape colour and design */
   .block input{
@@ -109,8 +117,7 @@ h2{font-size: 40px;
   }
   /* hours and city form */
   .contact .block{
-    display: flex;
-    flex-direction: column;
+    display: inline-block;
   }
   
   /* social media align to center */
@@ -160,6 +167,11 @@ h2{font-size: 40px;
       align-items: center;
       justify-content:space-evenly;
     }
-    
+    .social-media{
+      float: right;
+      position: relative;
+      bottom: 75px;
+
+    }
     
   }
