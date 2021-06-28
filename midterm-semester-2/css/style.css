@@ -1,2 +1,166 @@
-/* ---------------Home Page--------------*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+	content: none;
+}
+table {
+    border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------------Start of styling sheet------------------ */
+
+/* styles that apply to all pages */
+/* font stylesheet */
+body{
+font-family: "anton", sans-serif;
+}
 /* styling the nav bar | white bar with blue print  */
+nav{
+    margin: 0;
+    padding: 20px;
+    text-align: left;
+    width: 100vw;
+    
+}
+nav li a{
+    text-decoration: none;
+    color: #88A0D2;
+    padding: 20px;  
+}
+nav ul{
+    display: flex;
+}
+/* footer style with blue background and white print | nav and icons found here  */
+footer{
+    background-color: #88A0D2;
+    padding: 30px;
+    
+}
+.foot-nav{
+    display: flex;
+    flex-direction:row;
+    display: inline; 
+}
+footer li{
+    display: flex;
+    flex-direction:row;
+    display: inline; 
+}
+.social-media{
+    display: flex;
+    flex-direction: row;
+    display: inline;
+    
+}
+/* ---------------Home Page--------------*/
+
+/* main header on top of page */
+#portfolio{
+    background-color: #88A0D2;
+    text-align: right;
+    padding-right: 30px;
+}
+#portfolio h1{
+    color: white;
+    padding-top: 150px;
+    font-size: 100px;
+    font-weight: bolder;
+    
+    
+}
+#portfolio h2{
+    color: black;
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+/* content logo and about text  */
+.about{
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 30px;
+   
+}
+.about p{
+    padding-top: 100px;
+}
+.about .logo{
+    align-self: center;
+}
+.about p{
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+/* button at bottom of page */
+.design{
+background-color: #CCB244;
+  border: black;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 24px;
+  padding: 3px;
+  padding-right: 60px;
+  padding-left: 60px;
+  color: white;
+} 
+.photography{
+    background-color: #CCB244;
+      border: black;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 24px;
+      padding: 3px;
+      padding-right: 30px;
+      padding-left: 30px;
+      color: white;
+    } 
+.buttons{
+    text-align: center;
+    
+}
