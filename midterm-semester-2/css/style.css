@@ -93,7 +93,7 @@ footer div li{
     
 }
 
-/* ---------------Home Page--------------*/
+/* ---------------Start of Home Page--------------*/
 
 /* main header on top of page */
 #portfolio{
@@ -184,7 +184,7 @@ background-color: #CCB244;
     }
 }
 
-/* --------------------About Page ------------------ */
+/* --------------------Start of About Page ------------------ */
 /* font style for header and paragraph about my-self */
 
 h2{
@@ -240,3 +240,39 @@ h2{
         }
 
     }
+/* -------------------Start of Design Page ------------------ */
+.designs img{
+    max-width: 60%;
+    display: grid;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (min-width: 500px){
+    .designs{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+    grid-gap: 5px;
+    align-items: center;
+    }
+
+}
+/* -------------------Start of Photography Page ------------------ */
+.photos img{
+    max-width: 60%;
+    display: grid;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (min-width: 500px){
+    .photos{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+    grid-gap: 5px;
+    align-items: center;
+    }
+
+}
