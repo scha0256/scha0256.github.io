@@ -10,6 +10,8 @@
 </head>
 <main>
     <!-- nav section that branches off to design contact amd photography page -->
+    <!-- nav section allows user to easily swithch todifferent pages and find what they are looking for fast without having to scroll -->
+    <!-- used ul and li in nav to make foreasy css layouts -->
     <header>
         <nav>
             <ul>
@@ -36,6 +38,8 @@
     </header>
     
     <!-- main Content of Home Page -->
+<!-- about section is a good way for viewr to see what website is about before even changing and getting into rest of pages -->
+<!-- similar to about page but a bit of different info to keep viewer interested in looking for more -->
 
 <section class="about">
     <img id="logo" src="images/logo.svg" alt="rose-logo">
@@ -50,11 +54,19 @@
     </p>
 </section>
 <!-- buttons mlead to photography and design pages on click -->
-<section class="buttons">
-    <a href="design.html"><button class="design">DESIGN</button></a>
-    <a href="photography.html"><button class="photography">PHOTOGRAPHY</button></a>  
-</section>
-    
+<!-- buttons will be a yelow colour to pop and this will follow suit through rest of pages -->
+<!-- by adding a couple buttons to the design and phots page the viwer knows what the content of this site is about right away. The viewer can quickly check out the page of intrest right after reading the about. -->
+<div class="buttons">
+    <form action="design.html">
+
+    <button class="design">DESIGN</button>
+    </form>
+
+    <form action="photography.html">
+    <button class="photography">PHOTOGRAPHY</button>
+    </form>
+</div>
+    <!--footer will reamin the same on every page. By doing this it shows consistancy and appeals to organized and proffesional viewers. Ading to many changes between pages would be distracting.  -->
 <footer>
 <div class="foot-nav">
     <ul>
@@ -63,6 +75,7 @@
         <li>Design</li>
         <li>Photography</li>
     </ul>
+    </div>
     <div class="social-media">
         <img class="facebook" 
         src="images/icons/facebook.svg" 
@@ -72,7 +85,6 @@
         src="images/icons/instagram.svg" 
         alt="instagram">
     </div>
-</section>
 </footer>
 </main>
 </html>

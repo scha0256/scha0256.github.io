@@ -51,12 +51,17 @@ table {
 
 
 /* ---------------Start of styling sheet------------------ */
+/* the colours choosen for the site are chosen to represnet myself but also to apeal to all users */
+/* colours used on the site include #88A0D2, #CCB244, white and black  */
 
 /* styles that apply to all pages */
 /* font stylesheet */
+/* anton font was chosen to resemble a clean proffesional type, much like a resume */
 body{
 font-family: "anton", sans-serif;
 }
+/* the nav is styled the same on each page, a clean appearance thatits easy to follow */
+/* too many colours become distracting and unclear what the message is  */
 /* styling the nav bar | white bar with blue print  */
 nav{
     margin: 0;
@@ -74,28 +79,29 @@ nav ul{
     display: flex;
 }
 /* footer style with blue background and white print | nav and icons found here  */
+/* footer is styled the same on every page and has no kedia query to show simplicity and organization */
 footer{
     background-color: #88A0D2;
     padding: 30px; 
-}
-
-
-.foot-nav{
     display: inline-block;
     display: flex;
     justify-content: space-evenly;
+
 }
+
 footer div li{
     display: flex;
       flex-direction: row;
       display: inline;
       justify-content: space-evenly;
+      padding: 10px;
     
 }
 
 /* ---------------Start of Home Page--------------*/
 
 /* main header on top of page */
+/* the header of every page is to be blue #88A0D2 with white text, each page header changes in the banner but the syle and colouring remains the same to keep simplicity */
 #portfolio{
     background-color: #88A0D2;
     text-align: right;
@@ -120,6 +126,8 @@ footer div li{
 }
 
 /* content logo and about text  */
+/* the about info on the home page is different from the about page as it portains to the idea of the site rather than about myself */
+/* the design chosen for the fron t page is chosen for its simplicity and resemblance of a resume */
 .about{
     background-color: black;
     color: white;
@@ -140,6 +148,7 @@ footer div li{
 }
 
 /* button at bottom of page */
+/* all buttons are designed the same to show consistancy and be clear of their function */
 .design{
 background-color: #CCB244;
   border: black;
@@ -162,9 +171,10 @@ background-color: #CCB244;
       color: white;
       margin: 30px;
     } 
-.buttons{
+.buttons form{
     text-align: center; 
 }
+/* the image and about info flex onto one line for tablet and deskop view to keep from excessive scrolling and keep efficency for viewer */
 /* media screen for home page above 500px */
 @media screen and (min-width: 700px){
     .about{
@@ -186,7 +196,7 @@ background-color: #CCB244;
 
 /* --------------------Start of About Page ------------------ */
 /* font style for header and paragraph about my-self */
-
+/* the about page style much of the same as home page it consits of some about infomration this time about myslef. Following that is contact info designed to be efficent for the user */
 h2{
     padding: 30px;
     font-size: 20px;
@@ -241,6 +251,7 @@ h2{
 
     }
 /* -------------------Start of Design Page ------------------ */
+/* design page is a change it contains only content portaining to my work */
 .designs img{
     max-width: 60%;
     display: grid;
@@ -248,7 +259,7 @@ h2{
     margin-left: auto;
     margin-right: auto;
 }
-
+/* the layout changes for tblet and desktop view to create a more suer friendly viewing */
 @media screen and (min-width: 500px){
     .designs{
     display: grid;
@@ -259,6 +270,8 @@ h2{
 
 }
 /* -------------------Start of Photography Page ------------------ */
+/* photography page is setup the same format as the design page to show consistancy and be clear of its funcion */
+/* the design is efficent and simple to keep the viewer from getting overwhelmed and thrown off */
 .photos img{
     max-width: 60%;
     display: grid;
@@ -266,7 +279,7 @@ h2{
     margin-left: auto;
     margin-right: auto;
 }
-
+/* the layout changes for tblet and desktop view to create a more suer friendly viewing */
 @media screen and (min-width: 500px){
     .photos{
     display: grid;
