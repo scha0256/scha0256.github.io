@@ -4,18 +4,23 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Demo</title>
+    
+    <title>Bootstrap This</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   </head>
   <body>
+    <h1 class="display-1 bg-info p-3">About Bootstrap</h1>   
       <div class="container-lg">
-        <h1 class="display-1">About Bootstrap</h1>   
 <!-- How to create a nav bar with boootstarp -->
     <h1 class="display-6">Navigation</h1>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -31,11 +36,15 @@
               </li>
             </ul>
           </div>
+        </div>
       </nav>
       <div class="container-md">
       <p><br> Navbars use the class .navbar along with . navbar-expand in order to cancel out the colour scheme classses bootstrap has in place.
         <br> You can use container to change the horizontal width and use spacing or flex classes to alter spacing to your liking.
-        <br> The text can be added using the .navbar-brand class</p>
+        <br> The text can be added using the .navbar-brand class
+        <br>
+        <br>A few responsive classes added including navbar-toggler that wraps the span "navbar-toggler-icon". This allows smaller screen sizes to view the nav in a dropdown menu instead. 
+        <br>"collapse navbar-collapse" is another class which makes the menu appear as a stack when in smaller viewport sizes.</p>
     </div>
 <!-- How to create buttons with boootstarp -->
 <h1 class="display-6">Buttons</h1>
@@ -72,6 +81,7 @@
     <div class="container-md">
         <p><br> A card is designed to be a visible container on  your site to show content. It can include header, footees, background colours, and display options.
         <br>Cards have no fixed width so they will fill the full width of the parent element without added elements. Cards supports multiple content including images, text, list groups, links, etc.
+        <br>
         <br>The .card-body element is used for padding , it is the building block of every card.
         <br>The .card-title is the same as a "h1" tag and .card-link is the same as using a "a" tag.</p>
 </div>
@@ -107,7 +117,87 @@
         <li>Extra extra large (xxl)</li>
     </ul>
 </div>
+<!-- What is Jumbotron in boootstarp -->
+<h1 class="display-6">Jumbotron</h1>
+<div class="container-md">
+  <p><br>Jumbotron creates a big box for bring special attention to sme content. Jumbotro displays as a grey box with round corners and enlarges the font sizes.
+  <br>Inside a jumbotron you can put almost any valid HTML aswell as bootstrap classes.</p>
 </div>
+<h1 class="display-6">Media Queries</h1>
+<div class="container-md">
+  <p><br>Bootstrap is set to design mobile first. Their media queries are built on breakpints that are mostly based on the minimum viewport width to allw changes.
+    <br>The following media queries are the common breakpoints for bootstraps layout.
+    <br>
+    <br>Small devices (landscape phones, 576px and up)
+    <br>@media (min-width: 576px) { ... }
+    <br> 
+    <br>Medium devices (tablets, 768px and up)
+    <br> @media (min-width: 768px) { ... }
+    <br> 
+    <br>Large devices (desktops, 992px and up)
+    <br> @media (min-width: 992px) { ... }
+    <br> 
+    <br>X-Large devices (large desktops, 1200px and up)
+    <br> @media (min-width: 1200px) { ... }
+    <br> 
+    <br>XX-Large devices (larger desktops, 1400px and up)
+    <br>@media (min-width: 1400px) { ... }</p>
+</div>
+<!-- How to further make responsive -->
+<h1 class="display-6">Making Responsive</h1>
+<div class="container-md">
+  <p><br>Although media queries are good there is more than just the defualt breakpoints you can use to make a site responsive. By adding certain classes to elements in you code your website can be more responsive.
+  <br>
+  <br>An example of that is the navbar. At the top of the page the navbard example uses a class "collapse navbar-collapse", this class makes the menu apear like a stack when viewing in smaller browsers.</p>
+</div>
+
+<!-- provided info in Sample from Brightspace -->
+<h1 class="display-6">Open Source</h1>
+<div class="container-md">
+  <p><br>Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.</p>
+</div>
+
+<h1 class="display-6">Mobile First</h1>
+<div class="container-md">
+  <p><br>Bootstrap includes a powerful mobile-first flexbox grid to build layouts of all shapes and sizes thanks to a twelve column system, five default responsive tiers, Sass variables and mixins, and dozens of predefined classes.</p>
+</div>
+
+<h1 class="display-6">Componantes Library</h1>
+<div class="container-md">
+  <p><br>Bootstrap comes with an extensive components library that includes buttons and lists to carousels and modals. Components are easy to integrate into any site and require no knowledge of JavaScript to use.</p>
+</div>
+
+<h1 class="display-6">Components</h1>
+<div class="container-md">
+  <p><br>Bootstrap comes with nearly two dozen components that are ready to use right out of the box.</p>
+</div>
+
+<h1 class="display-6">Alerts</h1>
+<div class="container-md">
+  <p><br>Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.</p>
+</div>
+
+<h1 class="display-6">Breadcrumbs</h1>
+<div class="container-md">
+  <p><br>Indicate the current page’s location within a navigational hierarchy that automatically adds separators via CSS.</p>
+</div>
+
+<h1 class="display-6">List group</h1>
+<div class="container-md">
+  <p><br>List groups are a flexible and powerful component for displaying a series of content.</p>
+</div>
+
+</div>
+<!-- footer -->
+<footer class="bg-info text-center text-lg-start">
+  <!-- Copyright -->
+  <div class="text-center p-3">
+    © 2021 Copyright:
+    <a class="text-dark" href="https://getbootstrap.com/docs/5.0/getting-started/introduction/">getbootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+
     
 
     <!-- Optional JavaScript; choose one of the two! -->
