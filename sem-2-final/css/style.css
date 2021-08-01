@@ -48,6 +48,8 @@ table {
 	border-spacing: 0;
 }
 /* ---------------start of css style sheet------------- */
+
+
 /* nav bar styling the colour and background */
 .nav{
 	width: 100%;
@@ -81,20 +83,37 @@ table {
 	font-family: 'Times New Roman', Times, serif;
 }
 
-/* image sizing for icecream truck */
-.about img{
-	max-width: 80%;
-    display: grid;
-    padding: 30px;
-	margin-left: auto;
-    margin-right: auto;
+/* styleing of about info and for icecream truck */
+.about{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+	padding: 50px;
 }
 .about p{
-	padding: 30px;
-	margin-left: auto;
-    margin-right: auto;
-	max-width: 80%;
+    margin: 30px;
+
 }
+.about img{
+    max-width: 50%;
+}
+/* media screen for Our Story page */
+@media screen and (min-width: 1500px){
+	.about{
+		display: flex;
+		padding: 100px;
+		font-size: 20px;
+	}
+	
+}
+/* media screen for Our Story page */
+@media screen and (min-width: 1700px){
+	.about{
+		padding-right: 200px;
+		padding-left: 200px;
+	}
+}
+
 
 /* --------footer-------- */
 footer{
@@ -114,4 +133,123 @@ footer div li{
       padding: 10px;
     
 }
-	
+
+/* -------------Find Us CSS Style Sheet Begins------------ */
+/* contact form styling */
+.contact{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 30px;
+}
+.contact input{
+    width: 100%;
+    font-size: 12px;
+    border-color: black;
+    border-width: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+  .contact button{
+        background-color: #BEC8E3;
+          border: black;
+          font-family: 'Times New Roman', Times, serif;
+          font-size: 24px;
+          padding: 10px;
+          padding-right: 30px;
+          padding-left: 30px;
+          color: white;
+        } 
+/* Hours of Operation table */
+.hours{
+    padding:1.5rem;
+}
+.location{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.map iframe{
+    width: 100%;
+}
+div input{
+    width: 100%;
+    border: solid;
+    border-color: #222;
+    border-width: 0.5px;
+    text-align: left;
+}
+#go input{
+    height: 7rem;
+}
+#name label{
+    line-height: 2rem;
+}
+#mail label{
+    line-height:2rem;
+}
+#go label{
+    line-height:2rem;
+}
+table{
+    width: 100%;
+}
+table, th, td {
+    border: 0.5px solid black;
+    padding: 1rem;
+  }
+table th {
+    background-color: #BEC8E3;
+}
+
+/* padding around find us page before screen expansion */
+.find-us{
+	padding: 50px;
+}
+
+/* media screen for Find Us page */
+@media screen and (min-width: 1000px){
+	.find-us{
+		padding-right: 200px;
+		padding-left: 200px;
+	}
+}
+@media screen and (min-width: 1500px){
+	.find-us{
+		padding-right: 400px;
+		padding-left: 400px;
+	}
+}
+
+/* -------------Our Story CSS Style Sheet Begins------------ */
+.about-store{
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+	padding: 50px;
+}
+.about-store p{
+    margin: 30px;
+
+}
+.about-store img{
+    max-width: 50%;
+}
+/* media screen for Our Story page */
+@media screen and (min-width: 900px){
+	.about-store{
+		display: flex;
+		padding: 100px;
+	}
+	.about-store img{
+		margin-left: 30px;
+	}
+	.about-store p{
+		font-size: 15px;
+	}
+}
+/* media screen for Our Story page */
+@media screen and (min-width: 1500px){
+	.about-store{
+		padding-right: 400px;
+		padding-left: 400px;
+	}
+}
