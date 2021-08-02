@@ -253,3 +253,41 @@ table th {
 		padding-left: 400px;
 	}
 }
+
+/* -------------Our Icecream CSS Style Sheet Begins------------ */
+.store{
+    padding: 50px;
+}
+.store h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: white;
+    background-color: #432F30;
+    padding: 10px;
+}
+.store li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+hr{
+    color: #432F30;
+}
+/* media screen for Our Icecream page */
+@media screen and (min-width: 1000px){
+	.store{
+		padding-right: 200px;
+		padding-left: 200px;
+	}
+}
+@media screen and (min-width: 1500px){
+	.store{
+		padding-right: 300px;
+		padding-left: 300px;
+	}
+}
+@media screen and (min-width: 2300px){
+	.store{
+		padding-right: 500px;
+		padding-left: 500px;
+	}
+}
